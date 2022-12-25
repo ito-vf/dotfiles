@@ -12,7 +12,7 @@ set bell-style none
 #set DISPLAY=
 
 
-#aliases (usual)
+#aliases (common)
 alias cp="\cp -i"
 alias rm="\rm -i"
 alias mv="\mv -i"
@@ -45,9 +45,14 @@ function git-diff (){
         git difftool -y -t tkdiff $1 &
 }
 
-#aliases (unique)
-alias go_n="cd ~/work/NSI/git"
-alias tree='tree -N'
-  #tree need to install
+
+#aliases (local)
+if [ -f ~/.bashrc.user ]; then
+  source ~/.bashrc.user
+  echo "source .bashrc.user"
+else
+  echo "no bashrc.user"
+fi
+
 
 echo "***source done***"
