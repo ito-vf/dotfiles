@@ -11,6 +11,8 @@
 :set ic
 :set is
 
+:set cul
+
 :set pastetoggle=<F11>
 
 ":set cursorline
