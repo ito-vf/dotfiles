@@ -1,4 +1,4 @@
-"usual settings
+"common settings
 :set number
 
 :set expandtab

@@ -1,4 +1,4 @@
-echo "***source ~/.bashrc***"
+echo "***source dotfile/.bashrc***"
 
 #set prompt=
 export PS1="[\u@\h \w]\\$ "
@@ -46,7 +46,7 @@ function git-diff (){
 }
 
 
-#aliases (local)
+#source local
 if [ -f ~/.bashrc.local ]; then
   echo "** read local settings(.bashrc.local)"
   source ~/.bashrc.local
@@ -55,4 +55,4 @@ else
 fi
 
 
-echo "***source done***"
+echo "***end of dotfile/.bashrc***"
