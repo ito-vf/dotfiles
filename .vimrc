@@ -33,7 +33,7 @@
 :au BufNewFile,BufRead *.sva setf systemverilog
 :au BufNewFile,BufRead *[mM]akefile,*.mk,*.mak,*.dsp set tabstop=8
 ":au BufNewFile,BufRead .bashrc* set tabstop=8
-:au BufNewFile,BufRead *.py set tabstop=8
+:au BufNewFile,BufRead *.py set tabstop=4
 
 
 
