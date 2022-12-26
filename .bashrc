@@ -47,9 +47,9 @@ function git-diff (){
 
 
 #aliases (local)
-if [ -f ~/.bashrc.user ]; then
-  echo "** read local settings(.bashrc.user)"
-  source ~/.bashrc.user
+if [ -f ~/.bashrc.local ]; then
+  echo "** read local settings(.bashrc.local)"
+  source ~/.bashrc.local
 else
   echo "** no local set"
 fi
