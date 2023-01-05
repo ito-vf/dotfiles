@@ -1,4 +1,4 @@
-"usual settings
+"common settings
 :set number
 
 :set expandtab
@@ -10,6 +10,8 @@
 :set hls
 :set ic
 :set is
+
+:set cul
 
 :set pastetoggle=<F11>
 
