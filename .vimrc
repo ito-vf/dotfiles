@@ -14,6 +14,7 @@
 :set cul
 
 :set pastetoggle=<F11>
+:au  InsertLeave * :set nopaste
 
 ":set cursorline
 
