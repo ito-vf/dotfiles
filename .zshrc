@@ -31,7 +31,9 @@ function lm (){ls -ltF $@}
 function ll (){ls -lF  $@}
 function la (){ls -laF  $@}
 function dum (){du -k --max-depth=2 $@ | sort -n}
+function findf (){find $@ -type f}
 alias h='history'
+
 function _ps1 (){export PS1="[%n@%m /$1/ %C][%h]\$ "}
 function xt (){xterm -sb -geom 140x38 -n $1}
 #

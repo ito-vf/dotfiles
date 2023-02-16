@@ -35,6 +35,10 @@ function dum (){
         du -k -d2 $@ | sort -n
 }
 
+function findf (){
+        find $@ -type f
+}
+
 #function xt (){
 #        xterm -sb -geom 140x38 -n $1
 #}
