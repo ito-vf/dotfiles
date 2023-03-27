@@ -46,7 +46,7 @@ function findf (){
 
 #aliases (git)
 function git-diff (){
-        git difftool -y -t tkdiff $1 &
+        git difftool -y -t tkdiff $@ &
 }
 
 
